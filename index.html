@@ -152,6 +152,7 @@ body {
   color: inherit;
   font-family: inherit;
   font-weight: inherit;
+  font-size: 38px;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: -2px;
@@ -248,14 +249,49 @@ body {
   width: 100%;
   height: 100%;
 }
+#es-maybelline.es-maybelline .es-benefits__text {
+  font-family: Roboto, sans-serif;
+  font-weight: 900;
+  font-size: 66px;
+  text-align: center;
+padding-inline: 50px;
+}
 #es-maybelline.es-maybelline .es-benefits__text-one {
   order: 1;
+  display: grid;
+  place-items: center;
+  background-color: #DB1F26;
+  color: #DB1F26;
+  text-shadow: 
+   /* up */
+   0px -3px 3px rgba(255, 255, 255, 0.6),
+   /* left */
+   -3px 0px 4px rgba(167, 1, 1, 0.4),
+   /* right */
+   3px 0px 4px rgba(167, 1, 1, 0.4),
+   2px 0px 3px rgba(255, 255, 255, 0.2),
+   /* down */
+   0px 5px 3px rgba(143, 1, 1, 0.6);
 }
 #es-maybelline.es-maybelline .es-benefits__img-one {
   order: 2;
 }
 #es-maybelline.es-maybelline .es-benefits__text-two {
   order: 3;
+  display: grid;
+  place-items: center;
+  background-color: #750024;
+  color: #750024;
+  text-shadow: 
+   /* up */
+   0px -3px 3px rgba(255, 255, 255, 0.6),
+   /* left */
+   -3px 0px 4px rgba(68, 1, 21, 0.4),
+   /* right */
+   3px 0px 4px rgba(68, 1, 21, 0.4),
+   2px 0px 3px rgba(255, 255, 255, 0.2),
+   /* down */
+   0px 5px 3px rgba(68, 1, 21, 0.6);
 }
 #es-maybelline.es-maybelline .es-benefits__img-two {
   order: 4;
@@ -831,7 +867,7 @@ body {
          <div class="es-kv__single-two">
            <img src="images/photo-kv.png" alt="">
            <div class="es-kv__text-two">
-             <img src="images/badge-2.png" alt="vegan">
+             <img src="images/logo-LAT.png" alt="vegan">
              <h2 class="es-kv__text-name">super stay <strong>vinyl ink</strong></h2>
            </div>
          </div>
@@ -883,11 +919,7 @@ body {
          <div class="es-benefits">
         <div class="es-benefits__container">
           <div class="es-benefits__packshot es-benefits__text-one">
-            <img
-              src="images/benefits-packshot-1.png"
-              alt=""
-              class="es-benefits__img"
-            />
+            <p class="es-benefits__text">TŪLĪTĒJS SPĪDUMS AR VINILA EFEKTU</p>
           </div>
           <div class="es-benefits__packshot es-benefits__img-one">
             <img
@@ -904,11 +936,7 @@ body {
             />
           </div>
           <div class="es-benefits__packshot es-benefits__text-two">
-            <img
-              src="images/benefits-packshot-4.png"
-              alt=""
-              class="es-benefits__img"
-            />
+            <p class="es-benefits__text">NOTURĪBA LĪDZ 16 H**</p>
           </div>
         </div>
       </div>
